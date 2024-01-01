@@ -1,24 +1,21 @@
-    background-color: #FEBEB0; 
-    pink
+// Home.jsx
+import React from 'react';
+import './Home.css'; 
 
-    
-Certainly! Here are the color codes for the suggested feminine color scheme:
+import humanwig3 from '../Human-wig/stockimg3.jpg';
 
-Soft Lavender:
 
-Hex Code: #d8bfd8
-RGB: rgb(216, 191, 216)
-Dusty Rose:
-
-Hex Code: #d2b7b7
-RGB: rgb(210, 183, 183)
-<div className='Home'>
+function Home() {
+  return (
+    <div className='Home'>
       <div className="Homesubcontainer">
         {/* Content Section */}
         <section className="content-section">
-          <div>
-            <span>ladies beautified</span>
+          <div className='content-container'>
+            <div className='ladies-con'><span>ladies beautified</span></div>
+            <div>
             <h2>Get Affordable Wigs</h2>
+            </div>
             <div>
               <p>
                 Discover luxury lace front wigs and bundles at affordable prices. Elevate your style with our high-quality, budget-friendly options. 
@@ -30,3 +27,16 @@ RGB: rgb(210, 183, 183)
             </div>
           </div>
         </section>
+
+        {/* Image Section */}
+        <section className='Wigsection'>
+          <div>       
+            <img src={humanwig3} alt="Human hair" />
+          </div>
+        </section>
+      </div>
+    </div>
+  );
+}
+
+export default Home

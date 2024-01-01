@@ -1,0 +1,46 @@
+/* Navbar.css */
+.navbar-main{
+    padding-top: 14px;
+    padding-bottom: 14px; 
+    font-family: 'Merriweather', serif; /* Use Merriweather for the title */
+
+}
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .links{
+    display: inline-block;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  li {
+    cursor: pointer;
+    font-size: 13px;
+    margin-left: 3em;
+    margin-right: 3em;
+    transition: 1sm linear;
+  }
+
+  li:hover{
+    color:  #d2b7b7 ;
+  }
+  
+  .cart {
+    list-style: none;
+    width: 40px;
+  }
+  
+  .logo {
+    font-size: 1.4em;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif; 
+    letter-spacing: 1px;
+  }
+  

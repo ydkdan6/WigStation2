@@ -1,0 +1,81 @@
+/* Home.css */
+
+.Home{    
+}
+
+.Homesubcontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr /* Equal width columns */
+  }
+  
+  .content-section {
+    background-color: #fdecefcf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  .content-section .content-container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    
+  }
+  
+
+  .Wigsection div{
+    background: linear-gradient(45deg, #ff6b6b, #833471, #686de0, #c56cf0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+  }
+
+ 
+  /* Style the image */
+  .Wigsection img {
+    width: 100%;
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    height: 100%;
+  }
+
+  .content-container .ladies-con{
+    text-align: end;
+  }
+  
+  
+  .content-container div span{
+    font-family: 'Tangerine', cursive;
+    font-size: 25px;
+    color: #3D5A5B;
+    font-weight: 700;
+  }
+
+  .content-container div h2{
+    font-family: 'Merriweather', serif; /* Use Merriweather for the title */
+    z-index: 4;
+    font-family: "Be Vietnam Pro";
+    text-transform: uppercase;
+    height: auto;
+    width: auto;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    white-space: normal;
+    min-height: 0px;
+    min-width: 0px;
+    max-height: none;
+    max-width: none;
+    text-align: left;
+    line-height: 36px;
+    letter-spacing: 0px;
+    font-weight: 700;
+    font-size: 32px;
+    transform-origin: 50% 50%;
+    opacity: 1;
+    transform: translate(0px, 0px);
+    visibility: visible;  }
+  

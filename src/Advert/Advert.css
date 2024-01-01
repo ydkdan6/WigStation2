@@ -1,0 +1,20 @@
+.Advert{
+    background-color: #fdecefcf;
+    color: black;
+    padding-top: 9px;
+    padding-bottom:9px;
+    font-family: 'Merriweather', serif; /* Use Merriweather for the title */
+}
+
+.Advert div{
+  text-align: center;
+}
+
+.Advert div span{
+    letter-spacing: 5px;
+    font-size: 10px;
+    font-style: oblique;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+

@@ -3,7 +3,6 @@ import React from 'react';
 import './Home.css'; 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import humanwig3 from '../Human-wig/stockimg3.jpg';
-import { faArrowRight, faFastForward } from '@fortawesome/free-solid-svg-icons';
 
 
 function Home() {
@@ -14,7 +13,7 @@ function Home() {
         <section className="content-section">
           <div className='content-container'>
             <div>
-            <h2>Affordable Wigs just for your happiness</h2>
+            <h2>Affordable Wigs <br /> Just for your happiness</h2>
             </div>
             <div className='description-para'>
               <p>
@@ -23,17 +22,16 @@ function Home() {
               </p>    
             </div>
             <div className="talk-to-sale">
-              <button>Talk to Sales<FontAwesomeIcon icon={faArrowRight}/> </button>
+              <button><a href="">Talk to Sales</a></button>
             </div>
           </div>
         </section>
 
         {/* Image Section */}
         <section className='Wigsection'>
-          <div>    
-          <div className='ladies-con'><span>ladies beautified</span></div>
- 
+          <div>     
             <img src={humanwig3} alt="Human hair" />
+            <div className='ladies-con'><span>ladies beautified</span></div>
           </div>
         </section>
       </div>

@@ -6,6 +6,7 @@ import Home from './Home/Home'
 function App() {
   return (
     <div className='main'>
+      
       <Advert/>
      <Navbar/>
      <Home/>

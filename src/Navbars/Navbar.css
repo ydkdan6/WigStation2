@@ -3,6 +3,7 @@
     padding-top: 14px;
     padding-bottom: 14px; 
     font-family: 'Merriweather', serif; /* Use Merriweather for the title */
+    background-color: white;
 
 }
 .navbar {
@@ -40,7 +41,14 @@
   .logo {
     font-size: 1.4em;
     font-weight: bold;
-    font-family: 'Playfair Display', serif; 
     letter-spacing: 1px;
+  }
+
+  .logo h1{
+    font-family: 'Sevillana', serif;
+    font-weight: 700;
+    letter-spacing: initial;
+    box-shadow: 10px 10px 10px white;
+    font-size: 30px;
   }
   
